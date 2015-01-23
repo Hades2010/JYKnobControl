@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6S-FN-DPd">
+                                <rect key="frame" x="390" y="202" width="100" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htK-BM-gW2">
+                                <rect key="frame" x="417" y="463" width="73" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="随机">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleRandomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBe-ka-IZP"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKP-Dd-Qxu">
+                                <rect key="frame" x="150" y="462" width="51" height="31"/>
+                            </switch>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvM-Rf-49i">
+                                <rect key="frame" x="150" y="53" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="V1k-RN-LSs"/>
+                                    <constraint firstAttribute="height" constant="200" id="bcQ-Pb-4Et"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mq2-Xm-dFj">
+                                <rect key="frame" x="148" y="285" width="344" height="31"/>
+                                <color key="tintColor" red="0.69268932480000001" green="0.01488366788" blue="0.011747262769999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="handleValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ywf-i9-zfy"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mq2-Xm-dFj" firstAttribute="top" secondItem="F6S-FN-DPd" secondAttribute="bottom" constant="58" id="3HN-iq-zfA"/>
+                            <constraint firstItem="Mq2-Xm-dFj" firstAttribute="leading" secondItem="qvM-Rf-49i" secondAttribute="trailing" constant="-200" id="9HW-wG-IM1"/>
+                            <constraint firstItem="htK-BM-gW2" firstAttribute="leading" secondItem="Mq2-Xm-dFj" secondAttribute="trailing" constant="-46" id="BAp-sP-TrZ"/>
+                            <constraint firstItem="htK-BM-gW2" firstAttribute="top" secondItem="Mq2-Xm-dFj" secondAttribute="bottom" constant="148" id="DYs-Qb-ADQ"/>
+                            <constraint firstItem="qvM-Rf-49i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="K3A-Cz-EjD"/>
+                            <constraint firstItem="htK-BM-gW2" firstAttribute="leading" secondItem="Mq2-Xm-dFj" secondAttribute="trailing" constant="-73" id="LMM-K2-QLT"/>
+                            <constraint firstItem="htK-BM-gW2" firstAttribute="leading" secondItem="Mq2-Xm-dFj" secondAttribute="trailing" constant="-46" id="QJU-Fd-due"/>
+                            <constraint firstItem="qvM-Rf-49i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="89" id="TpQ-ei-uph"/>
+                            <constraint firstItem="zKP-Dd-Qxu" firstAttribute="top" secondItem="Mq2-Xm-dFj" secondAttribute="bottom" constant="147" id="Uao-lH-SMK"/>
+                            <constraint firstItem="Mq2-Xm-dFj" firstAttribute="top" secondItem="qvM-Rf-49i" secondAttribute="bottom" constant="32" id="XWP-yO-d67"/>
+                            <constraint firstItem="F6S-FN-DPd" firstAttribute="leading" secondItem="Mq2-Xm-dFj" secondAttribute="trailing" constant="-100" id="Zci-hz-Xcj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mq2-Xm-dFj" secondAttribute="trailing" constant="200" id="k7e-HA-eze"/>
+                            <constraint firstItem="Mq2-Xm-dFj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="200" id="nQV-jo-p2p"/>
+                            <constraint firstAttribute="centerY" secondItem="Mq2-Xm-dFj" secondAttribute="centerY" id="nXw-Ye-PjC"/>
+                            <constraint firstItem="Mq2-Xm-dFj" firstAttribute="leading" secondItem="zKP-Dd-Qxu" secondAttribute="trailing" constant="-49" id="nl3-Rc-8nO"/>
+                            <constraint firstAttribute="centerX" secondItem="Mq2-Xm-dFj" secondAttribute="centerX" id="umF-B8-dhg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K3A-Cz-EjD"/>
+                                <exclude reference="TpQ-ei-uph"/>
+                                <exclude reference="BAp-sP-TrZ"/>
+                                <exclude reference="QJU-Fd-due"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="animateSwitch" destination="zKP-Dd-Qxu" id="oB1-kW-QdG"/>
+                        <outlet property="knobPlaceholder" destination="qvM-Rf-49i" id="hTf-Ri-7t5"/>
+                        <outlet property="valueLabel" destination="F6S-FN-DPd" id="Fic-ZK-4I6"/>
+                        <outlet property="valueSlider" destination="Mq2-Xm-dFj" id="apC-dQ-BNK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="407"/>
+        </scene>
+    </scenes>
+</document>

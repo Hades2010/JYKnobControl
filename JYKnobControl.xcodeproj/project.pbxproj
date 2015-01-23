@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184182C81A72434E00AA7063 /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 184182C71A72434E00AA7063 /* RWRotationGestureRecognizer.m */; };
+		188A6D2D1A71D8A50007D84D /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A6D2C1A71D8A50007D84D /* RWKnobControl.m */; };
+		18D030FA1A72149400B6B3B7 /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D030F91A72149400B6B3B7 /* RWKnobRenderer.m */; };
+		18E3E0671A70FBA700E5AFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E0661A70FBA700E5AFDE /* main.m */; };
+		18E3E06A1A70FBA700E5AFDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E0691A70FBA700E5AFDE /* AppDelegate.m */; };
+		18E3E06D1A70FBA700E5AFDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E06C1A70FBA700E5AFDE /* ViewController.m */; };
+		18E3E0701A70FBA700E5AFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3E06E1A70FBA700E5AFDE /* Main.storyboard */; };
+		18E3E0721A70FBA700E5AFDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3E0711A70FBA700E5AFDE /* Images.xcassets */; };
+		18E3E0751A70FBA700E5AFDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E3E0731A70FBA700E5AFDE /* LaunchScreen.xib */; };
+		18E3E0811A70FBA700E5AFDE /* JYKnobControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E0801A70FBA700E5AFDE /* JYKnobControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E3E07B1A70FBA700E5AFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E3E0591A70FBA700E5AFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E3E0601A70FBA700E5AFDE;
+			remoteInfo = JYKnobControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184182C61A72434E00AA7063 /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		184182C71A72434E00AA7063 /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		188A6D2B1A71D8A50007D84D /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		188A6D2C1A71D8A50007D84D /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		18D030F81A72149400B6B3B7 /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		18D030F91A72149400B6B3B7 /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		18E3E0611A70FBA700E5AFDE /* JYKnobControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYKnobControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3E0651A70FBA700E5AFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3E0661A70FBA700E5AFDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E3E0681A70FBA700E5AFDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E3E0691A70FBA700E5AFDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E3E06B1A70FBA700E5AFDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E3E06C1A70FBA700E5AFDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E3E06F1A70FBA700E5AFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E3E0711A70FBA700E5AFDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18E3E0741A70FBA700E5AFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18E3E07A1A70FBA700E5AFDE /* JYKnobControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYKnobControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3E07F1A70FBA700E5AFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3E0801A70FBA700E5AFDE /* JYKnobControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYKnobControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E3E05E1A70FBA700E5AFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3E0771A70FBA700E5AFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E3E0581A70FBA700E5AFDE = {
+			isa = PBXGroup;
+			children = (
+				18E3E0631A70FBA700E5AFDE /* JYKnobControl */,
+				18E3E07D1A70FBA700E5AFDE /* JYKnobControlTests */,
+				18E3E0621A70FBA700E5AFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E3E0621A70FBA700E5AFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E3E0611A70FBA700E5AFDE /* JYKnobControl.app */,
+				18E3E07A1A70FBA700E5AFDE /* JYKnobControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E3E0631A70FBA700E5AFDE /* JYKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				18E3E0681A70FBA700E5AFDE /* AppDelegate.h */,
+				18E3E0691A70FBA700E5AFDE /* AppDelegate.m */,
+				18E3E06B1A70FBA700E5AFDE /* ViewController.h */,
+				18E3E06C1A70FBA700E5AFDE /* ViewController.m */,
+				18E3E06E1A70FBA700E5AFDE /* Main.storyboard */,
+				18E3E0711A70FBA700E5AFDE /* Images.xcassets */,
+				18E3E0731A70FBA700E5AFDE /* LaunchScreen.xib */,
+				18E3E0641A70FBA700E5AFDE /* Supporting Files */,
+				188A6D2B1A71D8A50007D84D /* RWKnobControl.h */,
+				188A6D2C1A71D8A50007D84D /* RWKnobControl.m */,
+				18D030F81A72149400B6B3B7 /* RWKnobRenderer.h */,
+				18D030F91A72149400B6B3B7 /* RWKnobRenderer.m */,
+				184182C61A72434E00AA7063 /* RWRotationGestureRecognizer.h */,
+				184182C71A72434E00AA7063 /* RWRotationGestureRecognizer.m */,
+			);
+			path = JYKnobControl;
+			sourceTree = "<group>";
+		};
+		18E3E0641A70FBA700E5AFDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E3E0651A70FBA700E5AFDE /* Info.plist */,
+				18E3E0661A70FBA700E5AFDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E3E07D1A70FBA700E5AFDE /* JYKnobControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E3E0801A70FBA700E5AFDE /* JYKnobControlTests.m */,
+				18E3E07E1A70FBA700E5AFDE /* Supporting Files */,
+			);
+			path = JYKnobControlTests;
+			sourceTree = "<group>";
+		};
+		18E3E07E1A70FBA700E5AFDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E3E07F1A70FBA700E5AFDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E3E0601A70FBA700E5AFDE /* JYKnobControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3E0841A70FBA700E5AFDE /* Build configuration list for PBXNativeTarget "JYKnobControl" */;
+			buildPhases = (
+				18E3E05D1A70FBA700E5AFDE /* Sources */,
+				18E3E05E1A70FBA700E5AFDE /* Frameworks */,
+				18E3E05F1A70FBA700E5AFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYKnobControl;
+			productName = JYKnobControl;
+			productReference = 18E3E0611A70FBA700E5AFDE /* JYKnobControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E3E0791A70FBA700E5AFDE /* JYKnobControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3E0871A70FBA700E5AFDE /* Build configuration list for PBXNativeTarget "JYKnobControlTests" */;
+			buildPhases = (
+				18E3E0761A70FBA700E5AFDE /* Sources */,
+				18E3E0771A70FBA700E5AFDE /* Frameworks */,
+				18E3E0781A70FBA700E5AFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E3E07C1A70FBA700E5AFDE /* PBXTargetDependency */,
+			);
+			name = JYKnobControlTests;
+			productName = JYKnobControlTests;
+			productReference = 18E3E07A1A70FBA700E5AFDE /* JYKnobControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E3E0591A70FBA700E5AFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E3E0601A70FBA700E5AFDE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					18E3E0791A70FBA700E5AFDE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 18E3E0601A70FBA700E5AFDE;
+					};
+				};
+			};
+			buildConfigurationList = 18E3E05C1A70FBA700E5AFDE /* Build configuration list for PBXProject "JYKnobControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E3E0581A70FBA700E5AFDE;
+			productRefGroup = 18E3E0621A70FBA700E5AFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E3E0601A70FBA700E5AFDE /* JYKnobControl */,
+				18E3E0791A70FBA700E5AFDE /* JYKnobControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E3E05F1A70FBA700E5AFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3E0701A70FBA700E5AFDE /* Main.storyboard in Resources */,
+				18E3E0751A70FBA700E5AFDE /* LaunchScreen.xib in Resources */,
+				18E3E0721A70FBA700E5AFDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3E0781A70FBA700E5AFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E3E05D1A70FBA700E5AFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D030FA1A72149400B6B3B7 /* RWKnobRenderer.m in Sources */,
+				18E3E06D1A70FBA700E5AFDE /* ViewController.m in Sources */,
+				18E3E06A1A70FBA700E5AFDE /* AppDelegate.m in Sources */,
+				188A6D2D1A71D8A50007D84D /* RWKnobControl.m in Sources */,
+				184182C81A72434E00AA7063 /* RWRotationGestureRecognizer.m in Sources */,
+				18E3E0671A70FBA700E5AFDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3E0761A70FBA700E5AFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3E0811A70FBA700E5AFDE /* JYKnobControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E3E07C1A70FBA700E5AFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E3E0601A70FBA700E5AFDE /* JYKnobControl */;
+			targetProxy = 18E3E07B1A70FBA700E5AFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E3E06E1A70FBA700E5AFDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3E06F1A70FBA700E5AFDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E3E0731A70FBA700E5AFDE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3E0741A70FBA700E5AFDE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E3E0821A70FBA700E5AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18E3E0831A70FBA700E5AFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E3E0851A70FBA700E5AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qikuo Yin (ZL8NAH344G)";
+				INFOPLIST_FILE = JYKnobControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E3E0861A70FBA700E5AFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYKnobControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E3E0881A70FBA700E5AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYKnobControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYKnobControl.app/JYKnobControl";
+			};
+			name = Debug;
+		};
+		18E3E0891A70FBA700E5AFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYKnobControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYKnobControl.app/JYKnobControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E3E05C1A70FBA700E5AFDE /* Build configuration list for PBXProject "JYKnobControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3E0821A70FBA700E5AFDE /* Debug */,
+				18E3E0831A70FBA700E5AFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3E0841A70FBA700E5AFDE /* Build configuration list for PBXNativeTarget "JYKnobControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3E0851A70FBA700E5AFDE /* Debug */,
+				18E3E0861A70FBA700E5AFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3E0871A70FBA700E5AFDE /* Build configuration list for PBXNativeTarget "JYKnobControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3E0881A70FBA700E5AFDE /* Debug */,
+				18E3E0891A70FBA700E5AFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E3E0591A70FBA700E5AFDE /* Project object */;
+}
